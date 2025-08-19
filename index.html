@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ECOVIDA — Ecologia & Ecossistemas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container linha-topo">
+      <a class="marca" href="#">
+        <span class="marca__texto">ECOVIDA</span>
+      </a>
+
+      <nav class="navegacao" aria-label="Principal">
+        <button class="navegacao__botao" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="navegacao__lista">
+          <li><a href="./pages/projetos.html">Projetos</a></li>
+          <li><a href="#doacoes">Doe Agora</a></li>
+          <li><a href="./pages/guias.html">Guias & Temas</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+          <li><a class="login" href="#login">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="inicio">
+    <div class="inicio__fundo" role="img" aria-label="Trilha na floresta"></div>
+    <div class="container inicio__conteudo">
+      <h1 class="inicio__titulo">ECOVIDA</h1>
+      <p class="inicio__subtitulo">Ecologia &amp; Ecossistemas</p>
+      <a href="#missao" class="botao botao--primario">Saiba Mais</a>
+    </div>
+  </section>
+
+  <section class="sobre">
+    <div class="container sobre__grid">
+      <div class="sobre__texto">
+        <p>
+          Aqui começa nossa jornada rumo à preservação. Estamos criando uma comunidade que
+          transforma cuidado com o meio ambiente em ações reais.
+        </p>
+        <a class="botao botao--secundario" href="#projetos">Saiba mais sobre nossos projetos</a>
+      </div>
+      <figure class="sobre__figura">
+        <img src="./imgs/ImagemFloresta.png" alt="Montanhas cobertas por floresta" />
+      </figure>
+    </div>
+  </section>
+
+  <section id="missao" class="missao">
+    <div class="container sobre__grid">
+        <div class="sobre__texto">
+            <h2 class="titulo-secao">Nossa Missão</h2>
+            <p class="missao__texto">
+            No Ecovida, oferecemos uma proposta completa para a restauração ambiental:
+            educação prática, impacto social e projetos locais. Nosso foco está em
+            oportunidades dignas e sustentáveis para comunidades, sem perder de vista a ciência e a ética.
+            </p>
+        </div>
+      <figure class="sobre__figura">
+        <img src="./imgs/ImgEnviroment.png" alt="" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="equipe">
+    <div class="container">
+      <h3 class="subtitulo-secao">Nossa equipe</h3>
+      <ul class="equipe__lista">
+        <li class="equipe__card">
+          <img src="./imgs/Rakely.svg" alt="Rakely Dias" />
+          <span>Rakely Dias</span>
+        </li>
+        <li class="equipe__card">
+          <img src="./imgs/Lorena.svg" alt="Lorena Mendes" />
+          <span>Lorena Mendes</span>
+        </li>
+        <li class="equipe__card">
+          <img src="./imgs/Tutao.svg" alt="Arthur Marques" />
+          <span>Arthur Marques</span>
+        </li>
+        <li class="equipe__card">
+          <img src="./imgs/Isaac.svg" alt="Isaac José" />
+          <span>Isaac José</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="linha-tempo">
+    <div class="container">
+      <h3 class="subtitulo-secao">Linha do Tempo</h3>
+
+      <ol class="linha-tempo__lista">
+        <li class="linha-tempo__item">
+          <div class="linha-tempo__ponto"></div>
+          <div class="linha-tempo__conteudo">
+            <h4>2023</h4>
+            <p>Fundação da ECOVIDA.</p>
+          </div>
+        </li>
+        <li class="linha-tempo__item">
+          <div class="linha-tempo__ponto"></div>
+          <div class="linha-tempo__conteudo">
+            <h4>2024</h4>
+            <p>Continuação do ECOVIDA em novas regiões.</p>
+          </div>
+        </li>
+        <li class="linha-tempo__item">
+          <div class="linha-tempo__ponto"></div>
+          <div class="linha-tempo__conteudo">
+            <h4>2025</h4>
+            <p>Início do projeto no Figma & planejamento de expansão.</p>
+          </div>
+        </li>
+        <li class="linha-tempo__item">
+          <div class="linha-tempo__ponto"></div>
+          <div class="linha-tempo__conteudo">
+            <h4>2025</h4>
+            <p>Finalização do projeto ECOVIDA (primeira fase).</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="metricas">
+    <div class="container">
+      <h3 class="subtitulo-secao">Impacto em números</h3>
+      <p class="metricas__texto">Veja os resultados de nossas iniciativas:</p>
+
+      <div class="metricas__grid">
+        <div class="metrica">
+          <span class="metrica__valor">10.000</span>
+          <span class="metrica__rotulo">Alunos inscritos</span>
+        </div>
+        <div class="metrica">
+          <span class="metrica__valor">+200</span>
+          <span class="metrica__rotulo">Alunos aprovados</span>
+        </div>
+        <div class="metrica">
+          <span class="metrica__valor">30</span>
+          <span class="metrica__rotulo">Escolas atendidas</span>
+        </div>
+        <div class="metrica">
+          <span class="metrica__valor">1.000</span>
+          <span class="metrica__rotulo">Alunos ativos p/mês</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="depoimentos">
+      <h3 class="subtitulo-secao">Depoimentos inspiradores</h3>
+      <div class="citacao">
+        <blockquote>
+          “Fazer parte da ECOVIDA me ensinou que pequenas ações geram grandes mudanças.
+          Com apoio e conhecimento, cada bairro pode florescer com verde e vida.”
+        </blockquote>
+        <p class="person">-Amanda Ribeiro </p>    
+        <p>Voluntária ECOVIDA</p>
+      </div>
+  </section>
+
+  <section id="doacoes" class="doacao">
+    <div class="doacao__caixa">
+      <h4>Nos ajude, e faça uma doação!</h4>
+      <a class="botao botao--primario" href="#doar">Doe Agora</a>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="container rodape__grid">
+      <div class="rodape__marca">
+        <div class="marca marca--rodape">
+          <span class="marca__texto">ECOVIDA</span>
+        </div>
+        <ul class="rodape__lista">
+          <li>ecovida@org.com</li>
+          <li>@ecovidaorg</li>
+          <li>+55 (11) 99999-9999</li>
+        </ul>
+      </div>
+
+      <div class="rodape__links">
+        <h5>Links úteis</h5>
+        <ul class="rodape__lista">
+          <li><a href="./pages/projetos.html">Projetos</a></li>
+          <li><a href="./pages/guias.html">Guias & Temas</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+        </ul>
+      </div>
+
+      <div class="rodape__social">
+        <h5>Receba novidades</h5>
+        <form class="newsletter" action="#" method="post">
+          <label for="email" class="sr-only">Seu e-mail</label>
+          <input id="email" type="email" placeholder="Seu e-mail" required>
+          <button class="botao botao--secundario" type="submit">Assinar</button>
+        </form>
+        <div class="icones" aria-label="Redes sociais">
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+          <a href="#" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="rodape__barra">
+      <small>© 2025 ECOVIDA. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+</body>
+</html>
