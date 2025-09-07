@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("../../../imgs//JogoFundo.png") no-repeat center center/cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 700px;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: #27724B;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #555;
+  border: solid 1px #555;
+  padding: 0.5rem;
+  border-radius: 999rem;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #27724B;
+}
+
+.opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opcao {
+  display: block;
+  background-color: #518F6F;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 10px;
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.opcao input {
+  display: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.opcao:hover {
+  background-color: #2e7d32;
+  color: white;
+  border: 1px solid #518F6F;
+  transform: scale(1.02); 
+}
+
+.opcao:has(input:checked) {
+  background-color: white;
+  color: #518F6F;
+  border: 1px solid #518F6F;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  
+}
+
+.opcoes label#correta {
+    background: #98CF70;
+
+    & span {
+        color: #fff;
+        font: bold;
+        font-size: 18px;
+    }
+}
+
+.opcoes label#errada {
+    background: #ee5454;
+
+    & span {
+        color: #fff;
+    }
+}
+
+.next-btn {
+  background-color: #518F6F;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 50%;
+  transition: background 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #1b5e20;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer p {
+  color: #2e7d32;
+  font-size: 18px;
+  font:bold;
+  border: 1px solid #2e7d32;
+  padding: 5px;
+  border-radius: 5px;
+}

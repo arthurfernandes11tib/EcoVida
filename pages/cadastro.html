@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - ECOVIDA</title>
+  <link rel="stylesheet" href="cadastrologin.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container linha-topo">
+      <a class="marca" href="../index.html">
+        <span class="marca__texto">ECOVIDA</span>
+      </a>
+
+      <nav class="navegacao" aria-label="Principal">
+        <button class="navegacao__botao" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="navegacao__lista">
+          <li><a href="./projetos.html">Projetos</a></li>
+          <li><a href="./doacao.html">Doe Agora</a></li>
+          <li><a href="./guias.html">Guias & Temas</a></li>
+          <li><a href="./quiz/quiz.html">Quiz</a></li>
+          <li><a class="login" href="../pages/login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <div class="form-box">
+      <div class="form-info">
+        <h1>Cadastre-se</h1>
+        <form>
+          <label>Nome</label>
+          <input type="text" required>
+
+          <label>Email</label>
+          <input type="email" required>
+
+          <label>Senha</label>
+          <input type="password" required>
+
+          <label>Confirme sua senha</label>
+          <input type="password" required>
+
+          <p>Já tem uma conta? <a href="login.html">Login</a></p>
+
+          <a href="./sucessocadastro.html" class="btn" >Cadastrar</a>
+        </form>
+      </div>
+
+      <div class="form-img">
+        <img src="../imgs/borboleta.png" alt="Borboleta">
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Doação</title>
+  <link rel="stylesheet" href="doar.css">
+</head>
+<body>
+    <header class="topo">
+    <div class="container linha-topo">
+      <a class="marca" href="../index.html">
+        <span class="marca__texto">ECOVIDA</span>
+      </a>
+
+      <nav class="navegacao" aria-label="Principal">
+        <button class="navegacao__botao" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="navegacao__lista">
+          <li><a href="./projetos.html">Projetos</a></li>
+          <li><a href="./doacao.html">Doe Agora</a></li>
+          <li><a href="./guias.html">Guias & Temas</a></li>
+          <li><a href="./quiz/quiz.html">Quiz</a></li>
+          <li><a class="login" href="./login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero-relacoes">
+    <div class="container hero__conteudo">
+      <h1>Fazer uma Doação</h1>
+      <p>Por favor, preencha o formulário abaixo para concluir sua doação</p>
+    </div>
+  </section>
+
+
+  <form class="container form-doacao" action="#" method="POST">
+
+    <h3>Escolha o valor desejado:</h3>
+    <div class="valores">
+      <input type="radio" id="v20" name="valor" value="20">
+      <label for="v20">R$ 20</label>
+
+      <input type="radio" id="v50" name="valor" value="50" checked>
+      <label for="v50">R$ 50</label>
+
+      <input type="radio" id="v100" name="valor" value="100">
+      <label for="v100">R$ 100</label>
+
+      <input type="radio" id="v150" name="valor" value="150">
+      <label for="v150">R$ 150</label>
+
+      <input type="radio" id="v200" name="valor" value="200">
+      <label for="v200">R$ 200</label>
+
+      <input type="radio" id="vOutro" name="valor" value="outro">
+      <label for="vOutro">Outro</label>
+    </div>
+
+    <label for="valorDoacao">Valor da doação</label>
+    <input type="text" id="valorDoacao" name="valorDoacao" placeholder="R$ 0,00" >
+
+    <h3>Informações pessoais</h3>
+    <input type="text" name="nome" placeholder="Nome completo" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="tel" name="telefone" placeholder="Telefone">
+
+    <h3>Método de pagamento</h3>
+    <div class="pagamento">
+      <input type="radio" id="credito" name="metodo" value="credito" checked>
+      <label for="credito">Cartão de Crédito</label>
+
+      <input type="radio" id="pix" name="metodo" value="pix">
+      <label for="pix">Pix</label>
+      <img src="../imgs/QrCodePagamento.png" alt="">
+    </div>
+
+    <div class="cartao">
+      <input type="text" name="titular" placeholder="Nome do titular do cartão">
+      <input type="text" name="numero_cartao" placeholder="Número do cartão">
+      <div class="linha">
+        <input type="text" name="validade" placeholder="Validade">
+        <input type="text" name="cvv" placeholder="CVV">
+      </div>
+    </div>
+
+    <a href="./sucessodoacao.html" class="botao a-final">Fazer doação</a>
+  </form>
+
+    <footer class="rodape">
+    <div class="container rodape__grid">
+      <div class="rodape__marca">
+        <span class="marca__texto">ECOVIDA</span>
+        <ul class="rodape__lista">
+          <li>ecovida@org.com</li>
+          <li>@ecovidaorg</li>
+          <li>+55 (11) 99999-9999</li>
+        </ul>
+      </div>
+      <div class="rodape__links">
+        <h5>Links úteis</h5>
+        <ul class="rodape__lista">
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="./guias.html">Guias & Temas</a></li>
+          <li><a href="./quiz/quiz.html">Quiz</a></li>
+        </ul>
+      </div>
+      <div class="rodape__social">
+        <h5>Receba novidades</h5>
+        <form class="newsletter">
+          <input type="email" placeholder="Seu e-mail" required>
+          <button class="botao botao--secundario">Assinar</button>
+        </form>
+        <div class="icones">
+          <a href="#">📸</a>
+          <a href="#">▶️</a>
+          <a href="#">💼</a>
+        </div>
+      </div>
+    </div>
+    <div class="rodape__barra">
+      <small>© 2025 ECOVIDA. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+</body>
+</html>

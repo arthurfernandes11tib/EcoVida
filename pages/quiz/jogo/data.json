@@ -1,0 +1,98 @@
+{
+    "quizzes": [
+        {
+            "questions": [
+                {
+                    "question": "Qual é o principal gás liberado na respiração dos seres vivos?",
+                    "options": [
+                        "Oxigênio",
+                        "Dióxido de carbono",
+                        "Nitrogênio"
+                    ],
+                    "answer": "Dióxido de carbono"
+                },
+                {
+                    "question": "Qual ciclo está diretamente ligado à formação de proteínas nos seres vivos?",
+                    "options": [
+                        "Ciclo do fósforo",
+                        "Ciclo do nitrogênio",
+                        "Ciclo da água"
+                    ],
+                    "answer": "Ciclo do nitrogênio"
+                },
+                {
+                    "question": "Qual alternativa apresenta o que caracteriza o parasitismo?",
+                    "options": [
+                        "Ambos os organismos se beneficiam",
+                        "Um organismo vive em outro sem prejudicar",
+                        "Um se alimenta de outro, causando prejuízo"
+                    ],
+                    "answer": "Um se alimenta de outro, causando prejuízo"
+                },
+                {
+                    "question": "Qual é o primeiro nível trófico de uma cadeia alimentar?",
+                    "options": [
+                        "Consumidores primários",
+                        "Produtores",
+                        "Decompositores"
+                    ],
+                    "answer": "Produtores"
+                },
+                {
+                    "question": "A fotossíntese é fundamental em qual ciclo?",
+                    "options": [
+                        "Do carbono",
+                        "Da água",
+                        "Do nitrogênio"
+                    ],
+                    "answer": "carbono"
+                },
+                {
+                    "question": "Um exemplo de ação sustentável é:",
+                    "options": [
+                        "Queimar lixo para economizar espaço",
+                        "Desmatar para ampliar lavouras",
+                        "Utilizar energia solar"
+                    ],
+                    "answer": "Utilizar energia solar"
+                },
+                {
+                    "question": "Qual desses fatores é abiótico em um ecossistema?",
+                    "options": [
+                        "Bactéria",
+                        "Temperatura",
+                        "Planta"
+                    ],
+                    "answer": "Temperatura"
+                },
+                {
+                    "question": "O que acontece em uma relação de mutualismo?",
+                    "options": [
+                        "Só um se beneficia",
+                        "Os dois se prejudicam",
+                        "Os dois se beneficiam"
+                    ],
+                    "answer": "Os dois se beneficiam"
+                },
+                {
+                    "question": "Qual é a função dos decompositores?",
+                    "options": [
+                        "Realizar fotossíntese",
+                        "Iniciar a cadeia alimentar",
+                        "Reciclar matéria orgânica no solo"
+                    ],
+                    "answer": "Reciclar matéria orgânica no solo"
+                },
+                {
+                    "question": "Qual problema ambiental está relacionado ao excesso de CO₂ na atmosfera?",
+                    "options": [
+                        "Chuva ácida",
+                        "Aquecimento global",
+                        "Eutrofização"
+                    ],
+                    "answer": "Aquecimento global"
+                }
+            ]
+        }
+    ]
+}

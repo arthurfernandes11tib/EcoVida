@@ -1,0 +1,239 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+.topo {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(180deg, rgba(10,15,11,.85), rgba(10,15,11,0));
+  backdrop-filter: saturate(180%) blur(6px);
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.linha-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .6rem 0
+}
+
+.login {
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.7);
+  color: #ffffff;
+  padding: .55rem .9rem;
+  font-size: .9rem;
+  border-radius: .9rem;
+  font-size: 1.1rem;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  color: #ffffff;
+  text-decoration: none
+}
+
+.marca__texto {
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 2rem;
+}
+
+.navegacao__botao {
+  display: none;
+  font-size: 1.35rem;
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer
+}
+
+.navegacao__lista {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.navegacao__lista a {
+  color: #ffffff;
+  opacity: .9;
+  text-decoration: none;
+  font-weight: 500
+}
+
+.navegacao__lista a:hover {
+  opacity: 1
+}
+
+.hero-relacoes {
+  position: relative;
+  background: url('../imgs/voluntariadoFundo.jpg') center/cover no-repeat;
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.hero-relacoes h1 {
+  font-size: 3.5rem;
+  margin: 0;
+}
+.hero-relacoes p {
+  font-size: 1.8rem;
+  margin: .5rem 0 0;
+}
+
+.container {
+  width: min(70rem, 92%);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+  position: relative;
+}
+
+h2 {
+  color: #2e7d32;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  color: #333;
+  line-height: 1.5;
+}
+
+.section {
+  margin: 1.875rem 0;
+  text-align: left;
+}
+
+.section div {
+  display: flex;
+  align-items: center;
+}
+
+.section img {
+  width: 3.125rem;
+  height: auto;
+}
+
+.section h3 {
+  color: #2e7d32;
+  margin-bottom: .5rem;
+}
+
+.section p {
+  margin: 0;
+  padding-left: 2.1875rem;
+  position: relative;
+}
+
+.highlight {
+  color: #2e7d32;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin: 2.5rem 0 1.25rem;
+  text-align: center;
+}
+
+.btn-voluntario {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.375rem;
+  padding: 0.75rem 1.5625rem;
+  border-radius: .375rem;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-voluntario:hover {
+  background-color: #1b5e20;
+  transform: scale(1.05);
+}
+
+.rodape {
+    background: #0f2a18;
+    color: #d7e9dc;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.rodape__grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 1.6rem;
+    padding: 2rem 0;
+}
+
+.marca--rodape .marca__texto {
+    color: #d7e9dc;
+}
+
+.rodape h5 {
+    margin: .2rem 0 1rem;
+}
+
+.rodape__lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: .4rem;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #d7e9dc;
+}
+
+.newsletter {
+    display: flex;
+    gap: .5rem;
+}
+
+.newsletter input {
+    flex: 1;
+    min-width: 0;
+    border-radius: 0.625rem;
+    border: 1px solid #578a66;
+    background: #0f371f;
+    color: #e8fff0;
+    padding: .7rem .9rem;
+    outline: 0;
+}
+
+.newsletter input::placeholder {
+    color: #bcd8c7;
+}
+
+.icones {
+    display: flex;
+    gap: .6rem;
+    margin-top: .8rem;
+}
+
+.icones a {
+    font-size: 1.25rem;
+}
+
+.rodape__barra {
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    padding: .9rem 0;
+    text-align: center;
+    color: #bcd8c7;
+}

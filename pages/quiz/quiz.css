@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: inter, Arial, sans-serif;
+  color: #0b1b12;
+  line-height: 1.6;
+  background: url("../../imgs/ac922efb76c0ddc1fafa46fd39edf4ad0ffb0860.png") no-repeat center center/cover;
+}
+
+main {
+   padding: 2rem;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin-inline: auto;
+}
+
+
+.topo {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(180deg, rgba(10,15,11,.85), rgba(10,15,11,0));
+  backdrop-filter: saturate(180%) blur(6px);
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.linha-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .6rem 0
+}
+
+.login {
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.7);
+  color: #ffffff;
+  padding: .55rem .9rem;
+  font-size: .9rem;
+  border-radius: .9rem;
+  font-size: 1.1rem;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  color: #ffffff;
+  text-decoration: none
+}
+
+.marca__texto {
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 2rem;
+}
+
+.navegacao__botao {
+  display: none;
+  font-size: 1.35rem;
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer
+}
+
+.navegacao__lista {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.navegacao__lista a {
+  color: #ffffff;
+  opacity: .9;
+  text-decoration: none;
+  font-weight: 500
+}
+
+.navegacao__lista a:hover {
+  opacity: 1
+}
+
+.quiz-inicial {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../../imgs/ac922efb76c0ddc1fafa46fd39edf4ad0ffb0860.png") 
+              no-repeat center center/cover;
+  padding-top: 4rem; 
+}
+
+.quiz-conteudo h1 {
+  font-size: 7rem;
+  color: #6cc96f;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+  margin-bottom: 1rem;
+}
+
+.quiz-conteudo p {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.btn-iniciar {
+  background-color: #2e7d32;
+  color: #fff;
+  font-size: 2.7rem;
+  font-weight: bold;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color .3s ease, transform .2s ease;
+}
+
+.btn-iniciar:hover {
+  background-color: #388e3c;
+  transform: scale(1.08);
+}

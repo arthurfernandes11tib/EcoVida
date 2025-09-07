@@ -1,22 +1,6 @@
-:root{
-  --fundo: #0a0f0b;
-  --cartao: #f7f9f7;
-  --texto: #0b1b12;
-  --apagado: #5c6f62;
-  --marca: #2e7d32;
-  --marca-escura: #185a1d;
-  --anel: #a7d8b7;
-  --branco: #ffffff;
-  --raio: 1rem;
-  --verde: #2e7d32;
-  --verde-escuro: #185a1d;
-  --bege: #f2f6f2;
-  --sombra: 0 .25rem .75rem rgba(0,0,0,0.08);
-}
-
 body {
   margin: 0;
-  font-family: Poppins, Arial, sans-serif;
+  font-family: inter, Arial, sans-serif;
   color: #0b1b12;
   background: #f2f6f2;
   line-height: 1.6;
@@ -27,7 +11,7 @@ body {
   align-items:center;
   justify-content:center;
   padding:.9rem 1.2rem;
-  border-radius:.75rem;
+  border-radius:12px;
   border:0;
   font-weight:600;
   text-decoration:none;
@@ -71,11 +55,11 @@ body {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:.6rem 0;
+  padding:.6rem 0
 }
 .login{
   background:transparent;
-  border:2px solid rgba(255,255,255,.7);
+  border:.125rem solid rgba(255,255,255,.7);
   color:#ffffff;
   padding:.55rem .9rem;
   font-size:.9rem;
@@ -87,7 +71,7 @@ body {
   align-items:center;
   gap:.6rem;
   color:#ffffff;
-  text-decoration:none;
+  text-decoration:none
 }
 
 .marca__texto{
@@ -100,94 +84,162 @@ body {
   display:none;
   font-size:1.35rem;
   background:transparent;
-  border: 0;
+  border:0;
   color:#ffffff;
-  cursor: pointer;
+  cursor:pointer;
 }
-.navegacao__lista{
-  display:flex;
+.navegacao__lista{display:flex;
   gap:1.2rem;
   list-style:none;
   margin:0;
   padding:0;
 }
-.navegacao__lista a {
-  color:#ffffff;
+.navegacao__lista a{color:#ffffff;
   opacity:.9;
   text-decoration:none;
   font-weight:500;
 }
-.navegacao__lista a:hover {
+.navegacao__lista a:hover{
   opacity:1;
 }
 
-.guias {
-  background: var(--bege);
-  padding: 3rem 1rem;
-  border-radius: var(--raio);
-}
-
-.guias .titulo {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 800;
-  color: var(--verde-escuro);
-  margin-bottom: 2rem;
-}
-
-.grid-guias {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(37.5rem, 2fr));
-  gap: 1.5rem;
-}
-
-.card {
-  background: white;
-  border-radius: var(--raio);
-  box-shadow: var(--sombra);
-  padding: 1.2rem;
+.hero-projetos {
+  position: relative;
+  background: url('../imgs/EcossistemasFundo.jpg') center/cover no-repeat;
+  min-height: 40vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: transform .3s ease;
-  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  text-align:left;
 }
-.card:hover {
-  transform: translateY(.125rem);
-}
-
-.card h3 {
-  background: var(--verde);
-  color: white;
-  font-size: 1.6rem;
-  padding: .6rem;
-  border-radius: .375rem;
-  margin-bottom: 1rem;
+.hero-projetos h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
-.card ul {
-  margin-bottom: 1.2rem;
-  padding-left: 1.2rem;
-}
-.card ul li {
-  font-size: 1.3rem;
-  margin-bottom: .5rem;
-  color: #333;
+.ecossistemas {
+  max-width: 62.5rem;
+  margin: 3.125rem auto;
+  padding: 1.25rem;
+  font-family: inter, sans-serif;
 }
 
-.btn {
-  align-self: flex-start;
-  background: var(--verde);
-  color: white;
-  font-weight: 600;
-  padding: .5rem 1.2rem;
-  border-radius: .375rem;
-  text-decoration: none;
-  transition: background .3s ease;
+.ecossistemas h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1b5e20;
+  margin-bottom: 2.5rem;
+}
+
+.definicao {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 3.125rem;
+}
+
+.definicao .texto {
+  flex: 1;
+  font-size: 1.2;
+}
+
+.definicao img {
+  width: 18.75rem;
+  border-radius: .625rem;
+}
+
+.fatores {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 2.5rem 0;
+}
+
+.fator {
+  flex: 1;
+  background: #A7D8B7;
+  border-radius: .625rem;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.fator h3 {
+  color: #1b5e20;
+  margin-bottom: .625rem;
   font-size: 1.2rem;
 }
-.btn:hover {
-  background: var(--verde-escuro);
+
+.img-fator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exemplos {
+  margin: 3.125rem 0;
+}
+
+.exemplos h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.875rem;
+  color: #1b5e20;
+}
+
+.exemplo {
+  margin-bottom: 2.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.exemplo h4 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: .625rem;
+  color: #1b5e20;
+}
+
+.exemplo p {
+  margin-bottom: .9375rem;
+}
+
+.imagens {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.imagens img {
+  width: 12.5rem;
+  border-radius: 10px;
+}
+
+.dinamica {
+  text-align: center;
+  background: #A7D8B7;
+  border-radius: .625rem;
+  padding: 1.875rem;
+}
+
+.dinamica h3 {
+  background: #1b5e20;
+  color: white;
+  padding: .625rem;
+  border-radius: .5rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.6rem;
+}
+
+.dinamica p {
+  margin-bottom: 1.25rem;
+  font-size: 1.2rem;
+}
+
+.dinamica img {
+  width: 100%;
+  max-width: 43.75rem;
+  border-radius: .625rem;
 }
 
 .rodape {

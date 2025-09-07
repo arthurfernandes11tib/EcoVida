@@ -1,0 +1,74 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tela {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  transition: opacity 0.6s ease;
+}
+
+.tela-final {
+  background: url("../../../imgs/0918dd9e3b983013a53531d3c43ab0726d8f6bd0.png") no-repeat center/cover;
+}
+
+.conteudo h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+}
+
+.conteudo p {
+  font-size: 1.5rem;
+  color: #e6ffe6;
+  margin-bottom: 2rem;
+}
+
+button, .btn-voltar {
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all .3s ease;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn-voltar {
+  background-color: #66bb6a;
+  font-size: 28px;
+}
+
+.btn-voltar:hover {
+  background-color: #81c784;
+  transform: scale(1.05);
+}
+
+.btn-novamente {
+    background-color: #27724B;
+    font-size: 28px;
+}
+
+.btn-novamente:hover {
+  background-color: #267e50;
+  transform: scale(1.05);
+}
+
+.escondido {
+  display: none;
+}

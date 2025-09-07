@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: inter, Arial, sans-serif;
+  color: #0b1b12;
+  background: #f2f6f2;
+  line-height: 1.6;
+  background: url('../imgs/JogoFundo.png') center/cover no-repeat;
+}
+
+
+.container {
+  width: min(70rem, 92%);
+  margin-inline: auto;
+}
+
+.topo {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  background-color: #154c29;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.linha-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .6rem 0
+}
+
+.login {
+  background: transparent;
+  border: .125rem solid rgba(255,255,255,.7);
+  color: #ffffff;
+  padding: .55rem .9rem;
+  font-size: .9rem;
+  border-radius: .9rem;
+  font-size: 1.1rem;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  color: #ffffff;
+  text-decoration: none
+}
+
+.marca__texto {
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 2rem;
+}
+
+.navegacao__botao {
+  display: none;
+  font-size: 1.35rem;
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer
+}
+
+.navegacao__lista {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.navegacao__lista a {
+  color: #ffffff;
+  opacity: .9;
+  text-decoration: none;
+  font-weight: 500
+}
+
+.navegacao__lista a:hover {
+  opacity: 1;
+}
+
+.btn-login {
+  background: white;
+  color: #154c29;
+  padding: .5rem 1rem;
+  border-radius: .375rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background: #ddd;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 1.25rem;
+}
+
+.form-box {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50rem;
+  border-radius: .75rem;
+  overflow: hidden;
+  box-shadow: 0 .25rem .9375rem rgba(0,0,0,0.2);
+}
+
+.form-info {
+  flex: 1;
+  padding: 2.5rem;
+}
+
+.form-info h1 {
+  margin-bottom: 1.25rem;
+  color: #154c29;
+}
+
+.form-info form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info label {
+  margin: .625rem 0 .3125rem;
+  font-weight: bold;
+}
+
+.form-info input {
+  padding: .625rem;
+  border: 1px solid #ccc;
+  border-radius: .375rem;
+  margin-bottom: .625rem;
+}
+
+.form-info p {
+  margin: .625rem 0;
+  font-size: .875rem;
+}
+
+.form-info a {
+  color: #154c29;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.form-info a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.form-info .btn {
+  background: #154c29;
+  color: white;
+  border: none;
+  padding: .75rem;
+  margin-top: .625rem;
+  border-radius: .375rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+
+.form-info .btn:hover {
+  background: #1d6b3a;
+  text-decoration: none;
+}
+
+.form-img {
+  flex: 1;
+  min-width: 18.75rem;
+  background: #eaf6ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-img img {
+  max-width: 100%;
+  border-radius: .625rem;
+}

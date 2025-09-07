@@ -1,18 +1,3 @@
-:root{
-  --fundo: #0a0f0b;
-  --cartao: #f7f9f7;
-  --texto: #0b1b12;
-  --apagado: #5c6f62;
-  --marca: #2e7d32;
-  --marca-escura: #185a1d;
-  --anel: #a7d8b7;
-  --branco: #ffffff;
-  --raio: 1rem;
-  --verde: #2e7d32;
-  --verde-escuro: #185a1d;
-  --bege: #f2f6f2;
-  --sombra: 0 .25rem .75rem rgba(0,0,0,0.08);
-}
 
 body {
   margin: 0;
@@ -71,11 +56,11 @@ body {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:.6rem 0;
+  padding:.6rem 0
 }
 .login{
   background:transparent;
-  border:2px solid rgba(255,255,255,.7);
+  border:.125rem solid rgba(255,255,255,.7);
   color:#ffffff;
   padding:.55rem .9rem;
   font-size:.9rem;
@@ -87,7 +72,7 @@ body {
   align-items:center;
   gap:.6rem;
   color:#ffffff;
-  text-decoration:none;
+  text-decoration:none
 }
 
 .marca__texto{
@@ -100,94 +85,125 @@ body {
   display:none;
   font-size:1.35rem;
   background:transparent;
-  border: 0;
+  border:0;
   color:#ffffff;
-  cursor: pointer;
+  cursor:pointer;
 }
-.navegacao__lista{
-  display:flex;
+.navegacao__lista{display:flex;
   gap:1.2rem;
   list-style:none;
   margin:0;
   padding:0;
 }
-.navegacao__lista a {
-  color:#ffffff;
+.navegacao__lista a{color:#ffffff;
   opacity:.9;
   text-decoration:none;
   font-weight:500;
 }
-.navegacao__lista a:hover {
+.navegacao__lista a:hover{
   opacity:1;
 }
 
-.guias {
-  background: var(--bege);
-  padding: 3rem 1rem;
-  border-radius: var(--raio);
-}
-
-.guias .titulo {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 800;
-  color: var(--verde-escuro);
-  margin-bottom: 2rem;
-}
-
-.grid-guias {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(37.5rem, 2fr));
-  gap: 1.5rem;
-}
-
-.card {
-  background: white;
-  border-radius: var(--raio);
-  box-shadow: var(--sombra);
-  padding: 1.2rem;
+.hero-projetos {
+  position: relative;
+  background: url('../imgs/EcologiaFundo.png') center/cover no-repeat;
+  min-height: 40vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: transform .3s ease;
-  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  text-align:left;
 }
-.card:hover {
-  transform: translateY(.125rem);
-}
-
-.card h3 {
-  background: var(--verde);
-  color: white;
-  font-size: 1.6rem;
-  padding: .6rem;
-  border-radius: .375rem;
-  margin-bottom: 1rem;
+.hero-projetos h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
-.card ul {
-  margin-bottom: 1.2rem;
-  padding-left: 1.2rem;
+.bloco {
+  padding: 5rem 1rem;
+  margin: 4rem;
 }
-.card ul li {
-  font-size: 1.3rem;
-  margin-bottom: .5rem;
+
+.bloco--bege {
+  background: #F5E9D2;
+  border-radius: 3rem;
+}
+
+.bloco--verde {
+  background: #c8e6c9;
+  border-radius: 3rem;
+}
+
+.bloco__conteudo {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  width: 65rem;
+}
+.bloco__conteudo div {
+    max-width: 40rem;
+}
+.bloco__conteudo h2 {
+    color: #226131;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+}
+.bloco__conteudo p {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bloco__conteudo img {
+  width: 12.5rem;
+  height: auto;
+}
+
+.niveis-ecologicos {
+  max-width: 50rem;
+  margin: 3.125rem auto;
+  padding: 1.25rem;
+  font-family: Arial, sans-serif;
+}
+
+.niveis-ecologicos h2 {
+  text-align: center;
+  font-size: 3.125rem;
+  font-style: italic;
+  color: #1b5e20;
+  margin-bottom: 1.875rem;
+}
+
+.nivel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.875;
+}
+
+.nivel img {
+  width: 9.375rem;
+  height: auto;
+  margin-right: 1.25rem;
+  border-radius: 62.5rem;
+}
+
+.nivel h3 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #1b5e20;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nivel p {
+  margin: .3125rem 0 0;
+  font-size: 1.25rem;
+  line-height: 1.4;
   color: #333;
-}
-
-.btn {
-  align-self: flex-start;
-  background: var(--verde);
-  color: white;
-  font-weight: 600;
-  padding: .5rem 1.2rem;
-  border-radius: .375rem;
-  text-decoration: none;
-  transition: background .3s ease;
-  font-size: 1.2rem;
-}
-.btn:hover {
-  background: var(--verde-escuro);
 }
 
 .rodape {
@@ -233,7 +249,7 @@ body {
 .newsletter input {
     flex: 1;
     min-width: 0;
-    border-radius: .625rem;
+    border-radius: 10px;
     border: 1px solid #578a66;
     background: #0f371f;
     color: #e8fff0;
