@@ -105,7 +105,7 @@ body {
 
 .hero-projetos {
   position: relative;
-  background: url('../imgs/EcossistemasFundo.jpg') center/cover no-repeat;
+  background: url('../imgs/EcossistemasFundo.png') center/cover no-repeat;
   min-height: 40vh;
   display: flex;
   align-items: center;
