@@ -54,7 +54,7 @@ body {
   background: transparent;
   border: 0;
   color: #ffffff;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .navegacao__lista {
@@ -69,11 +69,11 @@ body {
   color: #ffffff;
   opacity: .9;
   text-decoration: none;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .navegacao__lista a:hover {
-  opacity: 1
+  opacity: 1;
 }
 
 .hero-relacoes {
